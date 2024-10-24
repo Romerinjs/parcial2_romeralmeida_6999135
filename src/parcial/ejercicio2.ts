@@ -23,3 +23,8 @@ console.log('El array de numeros actualizado: ', arrays, '\n');
 console.log('II. Eliminar el ultimo numero del array', '\n');
 arrays[0].pop();
 console.log('el array con el numero eliminado: ', arrays, '\n');
+
+console.log('III. encontrar el indice del numero 3 en el array de numeros', '\n');
+console.log('El indice del numero 3 es: ', arrays[0].indexOf(3), '\n');
+
+console.log('IV. extrae una parte del array de numeros desde el 2do elemento hasta el 4to elemento', '\n');
