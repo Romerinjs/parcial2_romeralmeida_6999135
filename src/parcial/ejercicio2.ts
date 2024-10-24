@@ -89,3 +89,16 @@ const sortedArray = array4[0].sort((a, b) => a - b);
 console.log('El array ordenado es: ', sortedArray, '\n');
 const reverso = sortedArray.reverse();
 console.log('El array invertido es: ', reverso, '\n');
+
+console.log('XIV. ordenar un array strings en orden alfabetico', '\n');
+const sortedArrayStrings = fruitsName[0].sort();
+console.log('El array de frutas ordenado alfabeticamente es: ', sortedArrayStrings, '\n');
+
+console.log('XV. verificar si el numero 4 está presente en el array de [10,20,30,40,50]', '\n');
+if (arrays2[0].some((num) => num === 4)){
+console.log('El numero 4 está presente en el array');
+} else {
+    console.log('El numero 4 no está presente en el array');
+}
+
+
