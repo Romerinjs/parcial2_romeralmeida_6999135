@@ -43,3 +43,9 @@ console.log('Los numeros pares son: ', filteredNumbers, '\n');
 console.log('VII. suma todos los numeros del array utilizando reduce', '\n');
 const sum = arrays[0].reduce((acc, curr) => acc + curr, 0);
 console.log('La suma de todos los numeros es: ', sum, '\n');
+
+console.log('VIII. Dividir una cadena de texto en el array de frutas y luego volver a unirlas en una cadena separada por comas', '\n');
+const divideText = fruitsName[0].join(' ');
+ console.log(divideText, '\n');
+const text = fruitsName[0].join(', ');
+console.log('La cadena de texto es: ', text, '\n');
