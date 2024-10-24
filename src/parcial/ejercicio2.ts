@@ -7,6 +7,9 @@ const fruitsName: [string[]] = [['strawberry', 'apple', 'banana', 'kiwi', 'orang
 console.log('El array de nombres de frutas es: ', fruitsName)
 
 // array de booleanos
-
 const boolArray: [boolean[]] = [[true, false, true]];
 console.log('El array de booleanos es: ', boolArray)
+
+// array de tuplas
+const tuple: [Array<[number, string]>] = [[[1, 'uno'], [2, 'dos'], [3, 'tres']]];
+console.log('El array de tuplas es: ', tuple)
