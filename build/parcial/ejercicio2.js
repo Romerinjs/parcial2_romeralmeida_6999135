@@ -17,5 +17,11 @@ const index = arrays[0].indexOf(3);
 console.log('El indice del numero 3 es: ', index, '\n');
 console.log('IV. extrae una parte del array de numeros desde el 2do elemento hasta el 4to elemento', '\n');
 const extracted = arrays[0].slice(2, 4);
-console.log('La parte extraida del array: ', extracted, '\n');
+console.log('datos extraidos del array: ', extracted, '\n');
+console.log('v. eleva al cuadrado todos los numeros del array de numeros usando map', '\n');
+const squared = arrays[0].map((num) => num * num);
+console.log('los numeros elevados al cuadrado son: ', squared, '\n');
+console.log('VI. filtrar los numeros pares del array', '\n');
+const filteredNumbers = arrays[0].filter((num) => num % 2 === 0);
+console.log('Los numeros pares son: ', filteredNumbers, '\n');
 //# sourceMappingURL=ejercicio2.js.map
