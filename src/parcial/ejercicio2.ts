@@ -75,3 +75,10 @@ else {
     const numMajT40 = arrays2[0].find((num) => num > 40);
     console.log('Numero mayor que 40 es: ', numMajT40, '\n');
 }
+
+console.log('XII. combinar los arrays [1,2,3] y [4,5,6]', '\n');
+
+const array1: [number[]] = [[1,2,3]];
+const array2: [number[]] = [[4,5,6]];
+const combArrays = array1[0].concat(array2[0]);
+console.log('El  array combinado es: ', combArrays, '\n');
