@@ -32,4 +32,8 @@ const divideText = fruitsName[0].join(' ');
 console.log(divideText, '\n');
 const text = fruitsName[0].join(', ');
 console.log('La cadena de texto es: ', text, '\n');
+console.log('IX. encontrar el primer numero mayor que 25 en el array [10,20,30,40,50]', '\n');
+const arrays2 = [[10, 20, 30, 40, 50]];
+const findNumMajT25 = arrays2[0].find((num) => num > 25);
+console.log('El nuevo array de numeros es: ', arrays2, '\n', ' y el primer numero mayor que 25 es: ', findNumMajT25, '\n');
 //# sourceMappingURL=ejercicio2.js.map
