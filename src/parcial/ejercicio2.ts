@@ -21,3 +21,5 @@ arrays[0].push(6);
 console.log('El array de numeros actualizado: ', arrays, '\n');
 
 console.log('II. Eliminar el ultimo numero del array', '\n');
+arrays[0].pop();
+console.log('el array con el numero eliminado: ', arrays, '\n');
