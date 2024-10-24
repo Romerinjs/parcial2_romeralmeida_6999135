@@ -13,5 +13,9 @@ console.log('II. Eliminar el ultimo numero del array', '\n');
 arrays[0].pop();
 console.log('el array con el numero eliminado: ', arrays, '\n');
 console.log('III. encontrar el indice del numero 3 en el array de numeros', '\n');
-console.log('El indice del numero 3 es: ', arrays[0].indexOf(3), '\n');
+const index = arrays[0].indexOf(3);
+console.log('El indice del numero 3 es: ', index, '\n');
+console.log('IV. extrae una parte del array de numeros desde el 2do elemento hasta el 4to elemento', '\n');
+const extracted = arrays[0].slice(2, 4);
+console.log('La parte extraida del array: ', extracted, '\n');
 //# sourceMappingURL=ejercicio2.js.map
