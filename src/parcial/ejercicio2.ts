@@ -82,3 +82,10 @@ const array1: [number[]] = [[1,2,3]];
 const array2: [number[]] = [[4,5,6]];
 const combArrays = array1[0].concat(array2[0]);
 console.log('El  array combinado es: ', combArrays, '\n');
+
+console.log('XIII. ordena el array [5,1,4,2,3] de menor a mayor y luego revertir el orden', '\n');
+const array4: [number[]] = [[5,1,4,2,3]];
+const sortedArray = array4[0].sort((a, b) => a - b);
+console.log('El array ordenado es: ', sortedArray, '\n');
+const reverso = sortedArray.reverse();
+console.log('El array invertido es: ', reverso, '\n');
