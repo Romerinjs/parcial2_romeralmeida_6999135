@@ -39,3 +39,7 @@ console.log('los numeros elevados al cuadrado son: ', squared, '\n');
 console.log('VI. filtrar los numeros pares del array', '\n');
 const filteredNumbers = arrays[0].filter((num) => num % 2 === 0);
 console.log('Los numeros pares son: ', filteredNumbers, '\n');
+
+console.log('VII. suma todos los numeros del array utilizando reduce', '\n');
+const sum = arrays[0].reduce((acc, curr) => acc + curr, 0);
+console.log('La suma de todos los numeros es: ', sum, '\n');
