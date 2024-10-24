@@ -61,3 +61,17 @@ console.log('Todos los numeros son positivos');}
  else { 
     const negativeNumbers = arrays2[0].filter((num) => num <= 0);
     console.log('No todos los numeros son positivos, El numero negativo es: ', negativeNumbers, '\n'); }
+
+console.log('XI. Verificar si algun numero del array es mayor que 40');
+const someNumMajT40 = arrays2[0].some((num)=> num > 40);
+console.log ('Algun numero del array es mayor que 40: ', someNumMajT40, '\n');
+
+// adicional point
+console.log('XI2.0. verificacion si algun numero del array es mayor que 40');
+if (arrays2[0].every((num)=> num < 40)) {
+    console.log('Ningun numero es mayor a 40', '\n');
+}
+else {
+    const numMajT40 = arrays2[0].find((num) => num > 40);
+    console.log('Numero mayor que 40 es: ', numMajT40, '\n');
+}
